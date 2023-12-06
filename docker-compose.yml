@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  vitmatte:
+    image: vitmatte:v1
+    runtime: nvidia
+    container_name: vitmatte
+    command: sleep infinity
+    volumes:
+      - ./:/workspace

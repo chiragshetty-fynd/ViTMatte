@@ -1,0 +1,12 @@
+*.pt
+*.pyc
+*.png
+*.jpg
+*.jpeg
+*.DS_Store
+
+.git
+dataset/*
+checkpoints/*
+output_of_train/*
+.ipynb_checkpoints/*
